@@ -27,7 +27,7 @@ export const Navbar = () => {
         {isOpen && <span>Dashboard</span>}
       </Link>
       <Link
-        href={"/"}
+        href={"/provas"}
         className="flex gap-4 items-center  text-2xl font-bold"
       >
         <FaBook className="w-12 h-12" />

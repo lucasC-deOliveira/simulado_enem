@@ -24,9 +24,9 @@ export default function RootLayout({
       >
         <Header />
         <div className="flex">
-        <aside className="flex items-center">
+        {/* <aside className="flex items-center">
           <Navbar/>
-        </aside>
+        </aside> */}
         <main className="px-20 w-full">{children}</main>
         </div>
         <Footer/>
